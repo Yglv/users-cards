@@ -1,0 +1,89 @@
+  /*Обнуление*/
+  *{padding:0;margin:0;border:0;}
+  *,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+  :focus,:active{outline:none;}
+  a:focus,a:active{outline:none;}
+  nav,footer,header,aside{display:block;}
+  html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+  input,button,textarea{font-family:inherit;}
+  input::-ms-clear{display:none;}
+  button{cursor:pointer;}
+  button::-moz-focus-inner{padding:0;border:0;}
+  a,a:visited{text-decoration:none;}
+  a:hover{text-decoration:none;}
+  ul li{list-style:none;}
+  img{vertical-align:top;}
+  h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+  /*--------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper__content {
+  display: flex;
+}
+
+.content__form {
+  display: flex;
+  height: 700px;
+  max-width: 200px;
+  width: 100%;
+  padding-top: 100px;
+  justify-content: center;
+  border: 1px solid #eee;
+}
+
+.form__button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 120px;
+  height: 50px;
+  border-radius: 1rem;
+  background-color: dodgerblue;
+  text-align: left;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.content__cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.card {
+  height: 22rem;
+  width: 20rem;
+}
+
+.btn {
+  border-radius: 1rem;
+}
+
+.col {
+  flex: 1 1 auto;
+}
+
+.modal-content {
+  border-radius: 1rem;
+}
+
+.card-img-top {
+  width: 10rem;
+  height: 10rem;
+  margin: 10px auto;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=/js.fcffc47e.css.map */
